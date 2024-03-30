@@ -1,3 +1,4 @@
+
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import {
@@ -28,7 +29,7 @@ export default function App() {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Password."
+          placeholder="Pass."
           placeholderTextColor="#003f5c"
           secureTextEntry={true}
           onChangeText={(password) => setPassword(password)}

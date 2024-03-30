@@ -20,7 +20,7 @@ export default function App() {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Email."
+          placeholder="Username."
           placeholderTextColor="#003f5c"
           onChangeText={(email) => setEmail(email)}
         /> 
